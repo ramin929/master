@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+
+.block {
+max-width: 1170px;
+margin-left: 0;
+margin-right: 15px;
+padding-left: 16px;
+padding-right: 16px; 
+}
+
+.block2 {
+font-weight: 400px;
+font-size: 36px;
+font-family: "Raleway" , normal;
+text-align: center;
+}
+
+.block3 {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+text-align: center;
+} 
+
+#line_block { 
+width:310px; 
+height:50px; 
+float:left; 
+margin: 0px 15px 15px 0; 
+text-align:center;
+padding: 10px;  
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+}
+
+
+#line_block2 {
+width:310px; 
+height:50px; 
+float:left; 
+margin: 0 15px 15px 0; 
+text-align:center;
+padding: 10px;
+}
+
+.text1 { 
+font-weight : 400px;
+font-size : 14px;
+font-family: "Raleway", normal;
+}
+
+.block1 {
+margin : auto;
+padding-left: 85px ;
+padding-right: 85px; 
+}
+
+.line {
+position: absolute;
+width: 170px;
+height: 0px;
+left: 671px;
+top: 2003px;
+border: 1px solid #EC7979;
+}
