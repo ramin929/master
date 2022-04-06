@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.block {
+max-width: 1170px;
+margin-left: 0;
+margin-right: 15px;
+padding-left: 16px;
+padding-right: 16px; 
+}
+
+.block2 {
+font-weight: 400px;
+font-size: 36px;
+font-family: "Raleway" , normal;
+text-align: center;
+text-transform: uppercase;
+}
+
+.block3 {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+} 
+
+.rectangle {
+padding-top: 38px;
+padding-bottom: 37px;
+border: 1px solid #e2e2e2 ;
+background: #E2E2E2 ;
+width: 370px;
+height: 105px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+background: #E2E2E2;
+border-radius: 10px;
+vertical-align: middle;
+align-items: center;
+text-align: center;
+}
+
+.polygon {
+margin-left: 70px;
+}
+
+.face {
+padding-top: 20px;
+}
+
+.name {
+    float: right;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+}
+
+.hhh {
+
+max-width: 330px;
+max-height: 80px;
+}
+
+.profy {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    float: left;
+    margin-top: -22px;
+    margin-left: 100px;
+}
+
+.container {
+    max-width: 372px;
+    max-height: 580px;
+
+}
+.hz {
+    display: flex;
+    justify-content: space-between;
+margin-left: 0px;
+}
