@@ -1,8 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,img,ul,li,fieldset,form,label,input,menu,nav {
+  margin: 0 ;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font:inherit;
+  vertical-align: baseline;   
+  }
+
+
 .tabs {
     font-size: 0;
   }
+
+.tab {
+  display: inline-block;
+width: 184px ;
+height: 39px;
+border: 1px solid #C6CBCD ;
+border-bottom: none ;
+border-radius: 5px 5px 0 0;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+padding:0 0 13px 0;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+ 
 
   .tabs>input[type="radio"] {
     display: none;
@@ -26,7 +55,6 @@
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    padding: 2px 8px;
     font-size: 14px;
     line-height: 1.5;
     transition: color 0.15s ease-in-out;
@@ -45,22 +73,39 @@
   }
 
 .block {
-    width: 1170px;
-    height: 540px;
-    left: 170px;
+  width: 1170px;
+  height: 501px;
+  left: 170px;
+  top: 1302px;
+  
+  border: 1px solid #C6CBCD;
+  box-sizing: border-box;
 }
 
 .h3 {
-display: flex;
-font-family: 'Open Sans';
+margin: 47px 0 47px 0;
+font-family: "Open Sans";
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
 line-height: 41px;
+display: flex;
 align-items: center;
-
 color: #000000;
 }
+
+.h5 {
+width: 570px ;
+height: 210px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+}
+
 .text {
 display: flex ;
 font-family: 'Raleway';
@@ -75,12 +120,37 @@ align-items: center;
 #block1 {
   float: left;
   display: block;
-  width: 700px;
-  }
-  
+  width: 570px;
+}
+
   #block2 {
-  float: right;
-  display: block;
-  width: 470px;
-  padding: 0;
+    float: right;
+    display: block;
+    width: 470px;
+    padding: 0;
+ }
+
+.button {
+width: 270px;
+height: 58px;
+border: 1px solid white;
+background: #EC7979;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+justify-content: center ;
+color: #FFFFFF;
   }
+
+.button:hover {
+  background: #AB4949;
+}
+
+.button:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;  
+}
